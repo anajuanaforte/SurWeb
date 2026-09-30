@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: rgb(251, 251, 243);
+    color: rgb(12, 12, 12);
+    font-size: 2em;
+}
+
+header{
+    font-size: 2em;
+    margin-bottom: 50px;
+    background-color: aliceblue;
+    color: rgb(61, 134, 168);
+    padding: 30px;
+    height: 30%;
+    
+}
+
+.bookCard{
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(61, 134, 168);
+    color: beige;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow:2px 2px rgb(255, 147, 147);
+}
+
+.content {
+    width: 90%;
+    border: 3px solid rgb(61, 134, 168);;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+
+h2{
+    border-bottom: 2px solid rgb(169, 215, 255);
+    margin-top: 10px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+
+
+
+.colorMode {
+    background-color: #1e2528;
+    color: beige;
+}
+
+button{
+    background-color: rgb(255, 147, 147);
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 60px;
+    margin-left: 15px;
+    font-size: 0.7em;
+}
